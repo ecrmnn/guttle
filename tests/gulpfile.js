@@ -8,8 +8,8 @@ var guttle = require('../guttle');
 guttle({
   awesome: 'files/awesome',
   sample: [
-    'tests/files/sample',
-    'tests/files/sample2',
-    'tests/files/sample3'
+    'files/sample',
+    'files/sample2',
+    'files/sample3'
   ]
 });
