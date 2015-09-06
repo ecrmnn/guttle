@@ -1,4 +1,10 @@
 # guttle
+
+[![Build Status](https://travis-ci.org/ecrmnn/guttle.svg?branch=master)](https://travis-ci.org/ecrmnn/guttle)
+[![npm version](https://img.shields.io/npm/dm/guttle.svg)](http://badge.fury.io/js/guttle)
+[![npm version](https://img.shields.io/npm/v/guttle.svg)](http://badge.fury.io/js/guttle)
+[![npm version](https://img.shields.io/npm/l/guttle.svg)](http://badge.fury.io/js/guttle)
+
 Multiple gulp builds with ease
 
 ### What is guttle?
