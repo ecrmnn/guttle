@@ -67,3 +67,6 @@ gulp sprites --frontend
 # Trigger specific gulp task in 'assets/admin/gulpfile.js'
 gulp watch --adminpanel
 ```
+
+### Contributors
+[Runar Jørgensen (@ventrec)](https://github.com/ventrec)
