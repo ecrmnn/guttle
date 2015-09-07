@@ -14,6 +14,11 @@
   "splitting"
   ],
   "author": "Daniel Eckermann <danieleckermann@gmail.com> (http://danieleckermann.com)",
+  "contributors": [{
+  "name": "Runar Jørgensen",
+  "email": "ventrec@ventrec.org",
+  "github": "@ventrec"
+  }],
   "license": "MIT",
   "devDependencies": {
     "chai": "^3.2.0",
