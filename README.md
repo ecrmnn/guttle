@@ -70,3 +70,6 @@ gulp watch --adminpanel
 
 ### Contributors
 [Runar Jørgensen (@ventrec)](https://github.com/ventrec)
+
+### License
+MIT © [Daniel Eckermann](http://danieleckermann.com)
