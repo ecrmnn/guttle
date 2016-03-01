@@ -3,7 +3,7 @@
  * You should not use this file. 
  */
 
-var guttle = require('../guttle');
+const guttle = require('../guttle');
 
 guttle({
   awesome: 'files/awesome',
