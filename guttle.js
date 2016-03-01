@@ -1,12 +1,10 @@
-var guttle = function (options) {
+const colors = require('colors');
 
-  var lastArgument = process.argv[process.argv.length - 1];
-
-  var alias = lastArgument.replace('--', '');
-
-  var guttleCalledFrom = module.parent.filename;
-
-  var projectRoot = guttleCalledFrom.substr(0, guttleCalledFrom.lastIndexOf("/")) + '/';
+module.exports = function (options) {
+  const lastArgument = process.argv[process.argv.length - 1];
+  const alias = lastArgument.replace('--', '');
+  const guttleCalledFrom = module.parent.filename;
+  const projectRoot = guttleCalledFrom.substr(0, guttleCalledFrom.lastIndexOf("/")) + '/';
 
   /**
    * Check if lastArgument contains double dashes.
@@ -20,7 +18,7 @@ var guttle = function (options) {
   }
 };
 
-var loadByAlias = function (options, alias, projectRoot) {
+const loadByAlias = function (options, alias, projectRoot) {
   try {
 
     if (typeof options[alias] === 'string') {
@@ -35,15 +33,6 @@ var loadByAlias = function (options, alias, projectRoot) {
   }
 }
 
-var logError = function (log) {
-  var colors = require('colors');
+const logError = function (log) {
   console.log(colors.red('\n' + 'guttle error' + '\n' + log + '\n'));
 }
-
-module.exports = guttle;
-
-
-
-
-
-
